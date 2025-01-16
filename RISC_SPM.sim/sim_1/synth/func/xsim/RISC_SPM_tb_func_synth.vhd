@@ -1,0 +1,12 @@
+-- Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-- --------------------------------------------------------------------------------
+-- Tool Version: Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+-- Date        : Tue Apr 23 21:04:37 2024
+-- Host        : DESKTOP-TQUTIVG running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -mode funcsim -nolib -force -file
+--               D:/RISC_SPM/RISC_SPM.sim/sim_1/synth/func/xsim/RISC_SPM_tb_func_synth.vhd
+-- Design      : RISC_SPM
+-- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
+--               synthesized. This netlist cannot be used for SDF annotated simulation.
+-- Device      : xc7a35ticsg324-1L
+-- --------------------------------------------------------------------------------

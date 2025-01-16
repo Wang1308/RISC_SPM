@@ -1,0 +1,15 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto 062f93f8c6884bf88069f5b605a90604 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot RISC_SPM_tb_func_synth xil_defaultlib.RISC_SPM_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-4940] 'risc_spm' remains a black box since it has no binding entity [D:/RISC_SPM/RISC_SPM.srcs/sim_1/new/RISC_SPM_tb.vhd:51]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.risc_spm_tb
+Built simulation snapshot RISC_SPM_tb_func_synth

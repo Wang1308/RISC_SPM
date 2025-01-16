@@ -1,0 +1,1 @@
+-wto "062f93f8c6884bf88069f5b605a90604" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "RISC_SPM_tb_func_synth" "xil_defaultlib.RISC_SPM_tb" -log "elaborate.log" 

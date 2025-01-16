@@ -1,0 +1,12 @@
+
+{ 
+    crc :  430365785543753954  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 062f93f8c6884bf88069f5b605a90604 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot RISC_SPM_tb_func_synth xil_defaultlib.RISC_SPM_tb" , 
+    buildDate : "Jun 10 2021" , 
+    buildTime : "20:04:57" , 
+    linkCmd : "D:\\Vivado\\2021.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/RISC_SPM_tb_func_synth/xsimk.exe\"   \"xsim.dir/RISC_SPM_tb_func_synth/obj/xsim_0.win64.obj\" \"xsim.dir/RISC_SPM_tb_func_synth/obj/xsim_1.win64.obj\" -L\"D:\\Vivado\\2021.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

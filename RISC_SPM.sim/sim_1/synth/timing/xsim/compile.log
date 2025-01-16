@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RISC_SPM/RISC_SPM.sim/sim_1/synth/timing/xsim/RISC_SPM_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RISC_SPM
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/RISC_SPM/RISC_SPM.srcs/sim_1/new/RISC_SPM_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RISC_SPM_tb'
