@@ -1,0 +1,7 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/RISC_SPM/RISC_SPM.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+D:/RISC_SPM/RISC_SPM.srcs/sim_1/new/RISC_SPM_tb.vhd,1709355616,vhdl,,,,risc_spm_tb,,,,,,,,
+D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd,1712845325,vhdl,,,,address_register;alu_risc;controller_unit;d_flop;instruction_register;memory_unit;mux_3_1;mux_5_1;processing_unit;program_counter;register_unit;risc_spm,,,,,,,,
