@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Apr  8 22:27:43 2024
+# Process ID: 4220
+# Current directory: D:/RISC_SPM/RISC_SPM.srcs/utils_1/imports/synth_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10652 D:\RISC_SPM\RISC_SPM.srcs\utils_1\imports\synth_1\controller_unit.dcp
+# Log file: D:/RISC_SPM/RISC_SPM.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file: D:/RISC_SPM/RISC_SPM.srcs/utils_1/imports/synth_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint D:/RISC_SPM/RISC_SPM.srcs/utils_1/imports/synth_1/controller_unit.dcp
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1

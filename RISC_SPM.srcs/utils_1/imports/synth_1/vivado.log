@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Apr  8 22:27:43 2024
+# Process ID: 4220
+# Current directory: D:/RISC_SPM/RISC_SPM.srcs/utils_1/imports/synth_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10652 D:\RISC_SPM\RISC_SPM.srcs\utils_1\imports\synth_1\controller_unit.dcp
+# Log file: D:/RISC_SPM/RISC_SPM.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file: D:/RISC_SPM/RISC_SPM.srcs/utils_1/imports/synth_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint D:/RISC_SPM/RISC_SPM.srcs/utils_1/imports/synth_1/controller_unit.dcp
+Command: open_checkpoint D:/RISC_SPM/RISC_SPM.srcs/utils_1/imports/synth_1/controller_unit.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.058 . Memory (MB): peak = 1456.434 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.1/data/ip'.
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1456.434 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1456.434 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2021.1 (64-bit) build 3247384
+open_checkpoint: Time (s): cpu = 00:00:37 ; elapsed = 00:00:15 . Memory (MB): peak = 1456.434 ; gain = 0.000
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1L, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  8 22:29:20 2024...

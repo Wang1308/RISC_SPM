@@ -1,0 +1,286 @@
+
+*** Running vivado
+    with args -log RISC_SPM.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISC_SPM.tcl
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source RISC_SPM.tcl -notrace
+Command: synth_design -top RISC_SPM -part xc7a35ticsg324-1L -retiming
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 3764
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1132.504 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RISC_SPM' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:31]
+INFO: [Synth 8-3491] module 'processing_unit' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:86' bound to instance 'unit1' of component 'processing_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'processing_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:97]
+INFO: [Synth 8-3491] module 'Register_unit' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:185' bound to instance 'R0' of component 'Register_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'Register_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:190]
+WARNING: [Synth 8-614] signal 'load' is read in the process but is not in the sensitivity list [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:192]
+INFO: [Synth 8-256] done synthesizing module 'Register_unit' (1#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:190]
+INFO: [Synth 8-3491] module 'Register_unit' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:185' bound to instance 'R1' of component 'Register_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:154]
+INFO: [Synth 8-3491] module 'Register_unit' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:185' bound to instance 'R2' of component 'Register_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:156]
+INFO: [Synth 8-3491] module 'Register_unit' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:185' bound to instance 'R3' of component 'Register_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:158]
+INFO: [Synth 8-3491] module 'Register_unit' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:185' bound to instance 'Reg_Y' of component 'Register_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:160]
+INFO: [Synth 8-3491] module 'D_flop' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:203' bound to instance 'Red_Z' of component 'D_flop' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'D_flop' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:208]
+WARNING: [Synth 8-614] signal 'load' is read in the process but is not in the sensitivity list [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:210]
+INFO: [Synth 8-256] done synthesizing module 'D_flop' (2#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:208]
+INFO: [Synth 8-3491] module 'Address_Register' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:221' bound to instance 'Add_R' of component 'Address_Register' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'Address_Register' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:226]
+WARNING: [Synth 8-614] signal 'load' is read in the process but is not in the sensitivity list [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:228]
+INFO: [Synth 8-256] done synthesizing module 'Address_Register' (3#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:226]
+INFO: [Synth 8-3491] module 'Instruction_Register' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:239' bound to instance 'IR' of component 'Instruction_Register' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:166]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Register' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:244]
+WARNING: [Synth 8-614] signal 'load' is read in the process but is not in the sensitivity list [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:246]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Register' (4#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:244]
+INFO: [Synth 8-3491] module 'Program_Counter' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:258' bound to instance 'PC' of component 'Program_Counter' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'Program_Counter' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:263]
+INFO: [Synth 8-256] done synthesizing module 'Program_Counter' (5#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:263]
+INFO: [Synth 8-3491] module 'Mux_5_1' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:280' bound to instance 'MUX_1' of component 'Mux_5_1' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:170]
+INFO: [Synth 8-638] synthesizing module 'Mux_5_1' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:285]
+INFO: [Synth 8-256] done synthesizing module 'Mux_5_1' (6#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:285]
+INFO: [Synth 8-3491] module 'Mux_3_1' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:298' bound to instance 'MUX_2' of component 'Mux_3_1' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'Mux_3_1' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:303]
+INFO: [Synth 8-256] done synthesizing module 'Mux_3_1' (7#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:303]
+INFO: [Synth 8-3491] module 'ALU_RISC' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:316' bound to instance 'ALU' of component 'Alu_RISC' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:174]
+INFO: [Synth 8-638] synthesizing module 'ALU_RISC' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:322]
+WARNING: [Synth 8-614] signal 'alu_results' is read in the process but is not in the sensitivity list [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:325]
+INFO: [Synth 8-256] done synthesizing module 'ALU_RISC' (8#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:322]
+INFO: [Synth 8-256] done synthesizing module 'processing_unit' (9#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:97]
+INFO: [Synth 8-3491] module 'controller_unit' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:346' bound to instance 'unit2' of component 'controller_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'controller_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:357]
+INFO: [Synth 8-226] default block is never used [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:404]
+INFO: [Synth 8-226] default block is never used [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:414]
+INFO: [Synth 8-226] default block is never used [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:421]
+INFO: [Synth 8-226] default block is never used [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:452]
+INFO: [Synth 8-226] default block is never used [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:469]
+INFO: [Synth 8-226] default block is never used [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:478]
+INFO: [Synth 8-256] done synthesizing module 'controller_unit' (10#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:357]
+INFO: [Synth 8-3491] module 'memory_unit' declared at 'D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:503' bound to instance 'unit3' of component 'memory_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:77]
+INFO: [Synth 8-638] synthesizing module 'memory_unit' [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:509]
+WARNING: [Synth 8-614] signal 'write_Mem' is read in the process but is not in the sensitivity list [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:547]
+INFO: [Synth 8-256] done synthesizing module 'memory_unit' (11#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:509]
+INFO: [Synth 8-256] done synthesizing module 'RISC_SPM' (12#1) [D:/RISC_SPM/RISC_SPM.srcs/sources_1/new/RISC_SPM.vhd:31]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1132.504 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1132.504 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1132.504 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1132.504 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/RISC_SPM/RISC_SPM.srcs/constrs_1/new/top1.xdc]
+Finished Parsing XDC File [D:/RISC_SPM/RISC_SPM.srcs/constrs_1/new/top1.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1153.688 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1153.688 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'controller_unit'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  s_idle |                             0000 |                             0000
+                  s_fet1 |                             0001 |                             0001
+                  s_fet2 |                             0010 |                             0010
+                   s_dec |                             0011 |                             0011
+                   s_ex1 |                             0100 |                             0100
+                   s_rd1 |                             0101 |                             0101
+                   s_rd2 |                             0110 |                             0110
+                   s_wr1 |                             0111 |                             0111
+                   s_wr2 |                             1000 |                             1000
+                   s_br1 |                             1001 |                             1001
+                   s_br2 |                             1010 |                             1010
+                  s_halt |                             1011 |                             1011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'controller_unit'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 1     
+	   3 Input    8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 8     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 6     
+	   4 Input    8 Bit        Muxes := 1     
+	   6 Input    8 Bit        Muxes := 2     
+	  21 Input    4 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 28    
+	   6 Input    1 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 12    
+	  12 Input    1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5816] Retiming module `RISC_SPM`
+	Numbers of forward move = 0, and backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `RISC_SPM' done
+
+
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1153.688 ; gain = 21.184
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1153.688 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1153.688 ; gain = 21.184
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1153.688 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1153.688 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: f4b14685
+INFO: [Common 17-83] Releasing license: Synthesis
+61 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1153.688 ; gain = 21.184
+INFO: [Common 17-1381] The checkpoint 'D:/RISC_SPM/RISC_SPM.runs/synth_1/RISC_SPM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RISC_SPM_utilization_synth.rpt -pb RISC_SPM_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 23 21:00:53 2024...

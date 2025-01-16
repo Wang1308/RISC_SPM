@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jun  3 01:36:14 2024
+# Process ID: 14020
+# Current directory: D:/RISC_SPM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1504 D:\RISC_SPM\RISC_SPM.xpr
+# Log file: D:/RISC_SPM/vivado.log
+# Journal file: D:/RISC_SPM\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/RISC_SPM/RISC_SPM.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/RISC_SPM/RISC_SPM.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:09 . Memory (MB): peak = 1500.211 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  3 02:17:20 2024...

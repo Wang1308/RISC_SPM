@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Apr 23 21:00:13 2024
+# Process ID: 3368
+# Current directory: D:/RISC_SPM/RISC_SPM.runs/synth_1
+# Command line: vivado.exe -log RISC_SPM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISC_SPM.tcl
+# Log file: D:/RISC_SPM/RISC_SPM.runs/synth_1/RISC_SPM.vds
+# Journal file: D:/RISC_SPM/RISC_SPM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source RISC_SPM.tcl -notrace
